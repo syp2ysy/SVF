@@ -12,4 +12,9 @@ we rethink the paradigm of freezing the pre-trained backbone and show that fine-
 We evaluate our SVF on two few-shot segmentation benchmarks, Pascal-5$^i$ and COCO-20$^i$. Extensive experiments show that SVF is invulnerable to overfitting and works well with various FSS methods using different backbones. It is significantly better than the freezing backbone counterpart, leading to new state-of-the-art results on both Pascal-5<sup>i</sup> and COCO-20<sup>i</sup>.
 
 ## results
+<div align="center">
+<img src="img/voc-1.jpg" width="50%" height="70%"/><br/>
+  
+<img src="img/coco.jpg" width="50%" height="70%"/><br/> 
+</div>
 
