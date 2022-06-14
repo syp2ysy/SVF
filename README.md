@@ -1,5 +1,7 @@
 # Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning
-The code of SVF is coming soon!
+This is the official implementation of the paper [Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning](https://arxiv.org/pdf/2206.06122.pdf).
+
+Authors: Yanpeng Sun<sup>*</sup>, Qiang Chen<sup>*</sup>, Xiangyu He<sup>*</sup>, Jian Wang, Haocheng Feng, Junyu Han, Errui Ding, Jian Cheng, [Zechao Li](https://zechao-li.github.io/), Jingdong Wang
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/singular-value-fine-tuning-few-shot/few-shot-semantic-segmentation-on-coco-20i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-1?p=singular-value-fine-tuning-few-shot)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/singular-value-fine-tuning-few-shot/few-shot-semantic-segmentation-on-coco-20i-5)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-5?p=singular-value-fine-tuning-few-shot)
