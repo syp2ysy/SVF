@@ -1,5 +1,8 @@
 # Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning
-**Update**: The manuscript has been accepted in **NeurIPS 2022**.
+
+**Update**:
+1. The manuscript has been accepted in __NeurIPS 2022__.
+2. **The code is expected to be open source next week.**
 
 This is the official implementation of the paper [Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning](https://arxiv.org/pdf/2206.06122.pdf).
 
