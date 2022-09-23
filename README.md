@@ -71,7 +71,7 @@ class SVD_Conv2d(nn.Lyaer):
 
     def forward(self, x):
         x = self.conv_V(x)
-        x = x.mul(self.S)
+        x = x.mul(self.vector_S)
         output = self.conv_U(x)
         return output
 
