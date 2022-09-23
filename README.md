@@ -108,13 +108,16 @@ def svf_modules(self, model):
            param.requires_grad = True
 ```
 
-
-
-
-## results
-<div align="center">
-<img src="img/voc-1.jpg" width="50%" height="70%"/><br/>
-  
-<img src="img/coco.jpg" width="50%" height="70%"/><br/> 
-</div>
+## Bibtex
+If you find our work helpful for your research, please consider citing the following BibTeX entry.   
+```bibtex
+article{sun2022singular,
+  title={Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning},
+  author={Sun, Yanpeng and Chen, Qiang and He, Xiangyu and Wang, Jian and Feng, Haocheng and Han, Junyu and Ding, Errui and Cheng, Jian and Li, Zechao              and Wang, Jingdong},
+  year={2022},
+  eprint={2206.06122},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+```
 
