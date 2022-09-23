@@ -23,7 +23,7 @@ Freezing the pre-trained backbone has become a standard paradigm to avoid overfi
 ## Introduction
 we rethink the paradigm of freezing the pre-trained backbone and show that fine-tuning *a small part of parameters in the backbone* is free from overfitting, leading to better model generalization in learning novel classes. Our method is illustrated in Figure1(b). First, to find such a small part of parameters for fine-tuning, we decompose pre-trained parameters into three successive matrices via the Singular Value Decomposition (SVD). Second, we then *fine-tune the singular value matrices* and keep others frozen. The above design, called *Singular Value Fine-tuning (SVF)*, follows two principles: (i) maintaining rich semantic clues in the pre-trained backbone and (ii) adjusting feature map representations when learning to segment novel classes.
 
-We evaluate our SVF on two few-shot segmentation benchmarks, Pascal-5$^i$ and COCO-20$^i$. Extensive experiments show that SVF is invulnerable to overfitting and works well with various FSS methods using different backbones. It is significantly better than the freezing backbone counterpart, leading to new state-of-the-art results on both Pascal-5<sup>i</sup> and COCO-20<sup>i</sup>.
+We evaluate our SVF on two few-shot segmentation benchmarks, Pascal-5<sup>i</sup> and COCO-20<sup>i</sup>. Extensive experiments show that SVF is invulnerable to overfitting and works well with various FSS methods using different backbones. It is significantly better than the freezing backbone counterpart, leading to new state-of-the-art results on both Pascal-5<sup>i</sup> and COCO-20<sup>i</sup>.
 
 ## Usage
 
