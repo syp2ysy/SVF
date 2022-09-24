@@ -113,7 +113,7 @@ If you find our work helpful for your research, please consider citing the follo
 ```bibtex
 article{sun2022singular,
   title={Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning},
-  author={Sun, Yanpeng and Chen, Qiang and He, Xiangyu and Wang, Jian and Feng, Haocheng and Han, Junyu and Ding, Errui and Cheng, Jian and Li, Zechao   and Wang, Jingdong},
+  author={Sun, Yanpeng and Chen, Qiang and He, Xiangyu and Wang, Jian and Feng, Haocheng and Han, Junyu and Ding, Errui and Cheng, Jian and Li, Zechao and Wang, Jingdong},
   year={2022},
   eprint={2206.06122},
   archivePrefix={arXiv},
