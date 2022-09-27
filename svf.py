@@ -52,7 +52,7 @@ class SVD_Linear(nn.Layer):
 
 
 full2low_mapping_n = {
-    nn.Conv2d: SVD_Conv2d,
+    nn.Conv2D: SVD_Conv2d,
     nn.Linear: SVD_Linear
 }
 
