@@ -49,7 +49,7 @@ We use a full-rank model as an input, then factorize the original model and retu
 - Previous Convolution Layer
 
 ```python
-conv = nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias)
+conv = nn.Conv2D(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias)
 ```
 
 - Replaced by
@@ -65,8 +65,8 @@ class SVD_Conv2d(nn.Lyaer):
                  rank=1):
         super(SVD_Conv2d, self).__init__()
         factory_kwargs = {'device': device, 'dtype': dtype}
-        self.conv_U = nn.Conv2d(rank, out_channels, (1, 1), (1, 1), 0, (1, 1), 1, bias)
-        self.conv_V = nn.Conv2d(in_channels, rank, kernel_size, stride, padding, dilation, groups, False)
+        self.conv_U = nn.Conv2D(rank, out_channels, (1, 1), (1, 1), 0, (1, 1), 1, bias)
+        self.conv_V = nn.Conv2D(in_channels, rank, kernel_size, stride, padding, dilation, groups, False)
         self.vector_S = nn.ParameterList(paddle.empty((1, rank, 1, 1), **factory_kwargs))
 
     def forward(self, x):
