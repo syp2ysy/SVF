@@ -15,7 +15,7 @@ def d_nsvd(matrix, rank=1):
     return U, S, V
 
 
-class SVD_Conv2d(nn.Lyaer):
+class SVD_Conv2d(nn.Layer):
     """Kernel Number first SVD Conv2d
     """
 
