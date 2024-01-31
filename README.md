@@ -4,6 +4,7 @@
 1. The manuscript has been accepted in __NeurIPS 2022__.
 2. The core code is expected to be open source next week.
 3. **Core code has been updated**
+4. [torch code](https://github.com/zechao-li/SVF-pytorch) has been updated.
 
 This is the official implementation based on paddlepaddle of the paper [Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning](https://arxiv.org/pdf/2206.06122.pdf).
 
